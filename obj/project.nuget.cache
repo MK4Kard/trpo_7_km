@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2vVv9R89fXA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DNS\\OneDrive\\Рабочий стол\\trpo\\trpo_7\\trpo_7.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DNS\\.nuget\\packages\\materialdesigncolors\\5.3.2\\materialdesigncolors.5.3.2.nupkg.sha512",
+    "C:\\Users\\DNS\\.nuget\\packages\\materialdesignthemes\\5.3.2\\materialdesignthemes.5.3.2.nupkg.sha512",
+    "C:\\Users\\DNS\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512"
+  ],
+  "logs": []
+}
