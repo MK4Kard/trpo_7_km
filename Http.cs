@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Json;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,19 +15,19 @@ namespace trpo_7
             BaseAddress = new Uri("https://localhost:7010/"),
         };
 
-        public async Task GetMedicinesAsync()
+        public async Task<List<Medicine>> GetFromJsonMedicineAsync()
         {
-            HttpResponseMessage response = await httpClient.GetAsync("api/medicine");
+            var response = await httpClient.GetFromJsonAsync<List<Medicine>>("api/v1/Medicine");
 
-            if (response.IsSuccessStatusCode)
-            {
-                var json = await response.Content.ReadAsStringAsync();
+            return response;
+        }
 
-            }
-            else
-            {
-                
-            }
+        public async Task CreateJson(Medicine medicine)
+        {
+            HttpResponseMessage response = await httpClient.PostAsJsonAsync(
+                "api/v1/Medicine",
+                medicine
+            );
         }
     }
 }

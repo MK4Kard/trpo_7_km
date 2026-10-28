@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\App.xaml
-2-2016695974
+5-1821911861
 22-1369647256
-6-518891517
+10-1855598560
 201785027404
-MainWindow.xaml;Pages\MainPage.xaml;
+MainWindow.xaml;Pages\ChangeMedicine.xaml;Pages\CreateMedicine.xaml;Pages\MainPage.xaml;Pages\PathcMedicine.xaml;
 
 False
 

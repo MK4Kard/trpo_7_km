@@ -11,6 +11,26 @@
                                              PrimaryColor="Brown" SecondaryColor="Indigo" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign3.Defaults.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+            <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatDarkBgButton}">
+                <Setter Property="Margin" Value="10"/>
+                <Setter Property="MinWidth" Value="100"/>
+            </Style>
+            <Style TargetType="ComboBox" BasedOn="{StaticResource MaterialDesignComboBox}">
+                <Setter Property="Margin" Value="10"/>
+            </Style>
+            <Style TargetType="CheckBox" BasedOn="{StaticResource MaterialDesignCheckBox}">
+                <Setter Property="Margin" Value="5, 10, 0, 0"/>
+            </Style>
+            <Style TargetType="TextBox" BasedOn="{StaticResource MaterialDesignTextBox}">
+                <Setter Property="Margin" Value="5"/>
+            </Style>
+            <Style TargetType="Label" BasedOn="{StaticResource MaterialDesignLabel}">
+                <Setter Property="Margin" Value="5 10"/>
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+            <Style TargetType="DataGrid" BasedOn="{StaticResource MaterialDesignDataGrid}">
+                <Setter Property="Margin" Value="10"/>
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

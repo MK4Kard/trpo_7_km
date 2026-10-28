@@ -27,3 +27,10 @@ C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windo
 C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windows\trpo_7.pdb
 C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windows\trpo_7.genruntimeconfig.cache
 C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windows\ref\trpo_7.dll
+C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windows\trpo_7.sourcelink.json
+C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windows\Pages\CreateMedicine.g.cs
+C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windows\Pages\CreateMedicine.baml
+C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windows\Pages\ChangeMedicine.g.cs
+C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windows\Pages\PathcMedicine.g.cs
+C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windows\Pages\ChangeMedicine.baml
+C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windows\Pages\PathcMedicine.baml
