@@ -22,11 +22,41 @@ namespace trpo_7
             return response;
         }
 
+        public async Task<Medicine> GetJson(int id)
+        {
+            var response = await httpClient.GetFromJsonAsync<Medicine>($"api/v1/Medicine/{id}");
+
+            return response;
+        }
+
         public async Task CreateJson(Medicine medicine)
         {
             HttpResponseMessage response = await httpClient.PostAsJsonAsync(
                 "api/v1/Medicine",
                 medicine
+            );
+        }
+
+        public async Task PutJson(Medicine medicine, int id)
+        {
+            HttpResponseMessage response = await httpClient.PutAsJsonAsync(
+                $"api/v1/Medicine/{id}",
+                medicine
+            );
+        }
+
+        public async Task PatchJson(Medicine medicine, int id)
+        {
+            HttpResponseMessage response = await httpClient.PatchAsJsonAsync(
+                $"api/v1/Medicine/{id}",
+                medicine
+            );
+        }
+
+        public async Task DeleteJson(int id)
+        {
+            HttpResponseMessage response = await httpClient.DeleteAsync(
+                $"api/v1/Medicine/{id}"
             );
         }
     }

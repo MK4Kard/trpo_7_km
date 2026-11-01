@@ -16,7 +16,7 @@
     <Compile Update="Pages\MainPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Pages\PathcMedicine.xaml.cs">
+    <Compile Update="Pages\PatchMedicine.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -33,7 +33,7 @@
     <Page Update="Pages\MainPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Pages\PathcMedicine.xaml">
+    <Page Update="Pages\PatchMedicine.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

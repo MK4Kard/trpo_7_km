@@ -39,7 +39,7 @@ namespace trpo_7.Pages
         {
             if (SelectedMedicine != null)
             {
-                //NavigationService.Navigate();
+                NavigationService.Navigate(new ChangeMedicine(SelectedMedicine.Id));
             }
             else
             {
@@ -47,11 +47,13 @@ namespace trpo_7.Pages
             }
         }
 
-        private void Delete_Click(object sender, RoutedEventArgs e)
+        private async void Delete_Click(object sender, RoutedEventArgs e)
         {
             if (SelectedMedicine != null)
             {
-                
+                var medicine = await http.GetJson(SelectedMedicine.Id);
+                await http.DeleteJson(medicine.Id);
+                Update();
             }
             else
             {
@@ -63,7 +65,7 @@ namespace trpo_7.Pages
         {
             if (SelectedMedicine != null)
             {
-                //NavigationService.Navigate();
+                NavigationService.Navigate(new PatchMedicine(SelectedMedicine.Id));
             }
             else
             {
@@ -71,12 +73,22 @@ namespace trpo_7.Pages
             }
         }
 
-        private async void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var task = await http.GetFromJsonMedicineAsync();
-            foreach (var medic in task)
+            Update();
+        }
+
+        public async void Update()
+        {
+            if (medicines != null)
             {
-                medicines.Add(medic);
+                medicines.Clear();
+
+                var task = await http.GetFromJsonMedicineAsync();
+                foreach (var medic in task)
+                {
+                    medicines.Add(medic);
+                }
             }
         }
     }

@@ -7,21 +7,24 @@
       xmlns:m="http://materialdesigninxaml.net/winfx/xaml/themes"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
+      DataContext="{Binding RelativeSource={RelativeSource Self}}"
       Title="ChangeMedicine">
 
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
             <RowDefinition/>
             <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
-        <StackPanel>
+        <Button Content="Выйти" Click="Back_Click"/>
+        <StackPanel Grid.Row="1">
             <Label Content="Изменение Препарата"/>
-            <TextBox m:HintAssist.Hint="Название"/>
-            <TextBox m:HintAssist.Hint="Производитель"/>
-            <TextBox m:HintAssist.Hint="Цена"/>
-            <TextBox m:HintAssist.Hint="Срок годности"/>
-            <CheckBox Content="Наличие"/>
+            <TextBox m:HintAssist.Hint="Название" Text="{Binding medicine.Name}"/>
+            <TextBox m:HintAssist.Hint="Производитель" Text="{Binding medicine.Manufacturer}"/>
+            <TextBox m:HintAssist.Hint="Цена" Text="{Binding medicine.Price}"/>
+            <TextBox m:HintAssist.Hint="Срок годности" Text="{Binding medicine.ExpirationDate}"/>
+            <CheckBox Content="Наличие" IsChecked="{Binding medicine.IsAvailable}"/>
         </StackPanel>
-        <Button Grid.Row="1" Content="Сохранить"/>
+        <Button Grid.Row="2" Content="Сохранить" Click="Change_Click"/>
     </Grid>
 </Page>
