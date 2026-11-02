@@ -50,7 +50,7 @@ namespace trpo_7 {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "8.0.8.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "10.0.12.0")]
         public void InitializeComponent() {
             if (_contentLoaded) {
                 return;
@@ -76,7 +76,7 @@ namespace trpo_7 {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "8.0.8.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "10.0.12.0")]
         public static void Main() {
             trpo_7.App app = new trpo_7.App();
             app.InitializeComponent();

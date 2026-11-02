@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
+using System.Net.Http;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -10,6 +13,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -19,11 +23,32 @@ namespace trpo_7.Pages
     /// <summary>
     /// Логика взаимодействия для MainPage.xaml
     /// </summary>
-    public partial class MainPage : Page
+    public partial class MainPage : Page, INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler? PropertyChanged;
         private readonly Http http = new();
         public ObservableCollection<Medicine> medicines { get; set; } = new();
         public Medicine? SelectedMedicine { get; set; }
+        private string _manufacturer;
+        public string manufacturer
+        {
+            get => _manufacturer;
+            set
+            {
+                _manufacturer = value;
+                OnPropertyChanged();
+            }
+        }
+        private bool _available = new();
+        public bool available
+        {
+            get => _available;
+            set
+            {
+                _available = value;
+                OnPropertyChanged();
+            }
+        }
 
         public MainPage()
         {
@@ -53,7 +78,8 @@ namespace trpo_7.Pages
             {
                 var medicine = await http.GetJson(SelectedMedicine.Id);
                 await http.DeleteJson(medicine.Id);
-                Update();
+                medicines.Remove(SelectedMedicine);
+                SelectedMedicine = null;
             }
             else
             {
@@ -73,7 +99,7 @@ namespace trpo_7.Pages
             }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private async Task Button_Click(object sender, RoutedEventArgs e)
         {
             Update();
         }
@@ -84,12 +110,17 @@ namespace trpo_7.Pages
             {
                 medicines.Clear();
 
-                var task = await http.GetFromJsonMedicineAsync();
+                var task = await http.GetFromJsonMedicineAsync(manufacturer, available);
                 foreach (var medic in task)
                 {
                     medicines.Add(medic);
                 }
             }
+        }
+
+        protected void OnPropertyChanged([CallerMemberName] string? propName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
         }
     }
 }

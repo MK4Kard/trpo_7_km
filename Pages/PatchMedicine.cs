@@ -27,8 +27,8 @@ namespace trpo_7.Pages
         public event PropertyChangedEventHandler? PropertyChanged;
         private readonly Http http = new();
         private int id = 0;
-        private Medicine _medicine = new();
-        public Medicine medicine
+        private MedicineDto _medicine = new();
+        public MedicineDto medicine
         {
             get => _medicine;
             set
@@ -48,7 +48,15 @@ namespace trpo_7.Pages
 
         public async void Get()
         {
-            medicine = await http.GetJson(id);
+            var medicineN = await http.GetJson(id);
+            medicine = new MedicineDto
+            {
+                Name = medicineN.Name,
+                Manufacturer = medicineN.Manufacturer,
+                Price = medicineN.Price,
+                ExpirationDate = medicineN.ExpirationDate,
+                IsAvailable = medicineN.IsAvailable
+            };
         }
 
         private async void Change_Click(object sender, RoutedEventArgs e)

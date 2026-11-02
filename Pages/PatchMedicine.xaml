@@ -19,11 +19,11 @@
         <Button Content="Выйти" Click="Back_Click"/>
         <StackPanel Grid.Row="1">
             <Label Content="Изменение (частичное) Препарата"/>
-            <TextBox m:HintAssist.Hint="Название" Text="{Binding medicine.Name}"/>
-            <TextBox m:HintAssist.Hint="Производитель" Text="{Binding medicine.Manufacturer}"/>
-            <TextBox m:HintAssist.Hint="Цена" Text="{Binding medicine.Price}"/>
-            <TextBox m:HintAssist.Hint="Срок годности" Text="{Binding medicine.ExpirationDate}"/>
-            <CheckBox Content="Наличие" IsChecked="{Binding medicine.IsAvailable}"/>
+            <TextBox m:HintAssist.Hint="Название" Text="{Binding medicine.Name, TargetNullValue=''}"/>
+            <TextBox m:HintAssist.Hint="Производитель" Text="{Binding medicine.Manufacturer, TargetNullValue=''}"/>
+            <TextBox m:HintAssist.Hint="Цена" Text="{Binding medicine.Price, TargetNullValue=''}"/>
+            <TextBox m:HintAssist.Hint="Срок годности" Text="{Binding medicine.ExpirationDate, TargetNullValue=''}"/>
+            <CheckBox Content="Наличие" IsChecked="{Binding medicine.IsAvailable, TargetNullValue=''}"/>
         </StackPanel>
         <Button Grid.Row="2" Content="Сохранить" Click="Change_Click"/>
     </Grid>

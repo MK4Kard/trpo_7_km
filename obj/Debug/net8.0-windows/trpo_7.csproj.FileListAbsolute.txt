@@ -34,3 +34,39 @@ C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windo
 C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windows\Pages\ChangeMedicine.baml
 C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windows\Pages\PatchMedicine.g.cs
 C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windows\Pages\PatchMedicine.baml
+C:\Users\777\Desktop\трпо\trpo_7_km\bin\Debug\net8.0-windows\trpo_7.exe
+C:\Users\777\Desktop\трпо\trpo_7_km\bin\Debug\net8.0-windows\trpo_7.deps.json
+C:\Users\777\Desktop\трпо\trpo_7_km\bin\Debug\net8.0-windows\trpo_7.runtimeconfig.json
+C:\Users\777\Desktop\трпо\trpo_7_km\bin\Debug\net8.0-windows\trpo_7.dll
+C:\Users\777\Desktop\трпо\trpo_7_km\bin\Debug\net8.0-windows\trpo_7.pdb
+C:\Users\777\Desktop\трпо\trpo_7_km\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\777\Desktop\трпо\trpo_7_km\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\777\Desktop\трпо\trpo_7_km\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\trpo_7.csproj.AssemblyReference.cache
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\Pages\ChangeMedicine.g.cs
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\Pages\CreateMedicine.g.cs
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\Pages\MainPage.g.cs
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\Pages\PatchMedicine.g.cs
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\trpo_7_Content.g.cs
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\trpo_7_MarkupCompile.cache
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\trpo_7_MarkupCompile.lref
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\App.baml
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\Pages\ChangeMedicine.baml
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\Pages\CreateMedicine.baml
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\Pages\MainPage.baml
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\Pages\PatchMedicine.baml
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\trpo_7.g.resources
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\trpo_7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\trpo_7.AssemblyInfoInputs.cache
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\trpo_7.AssemblyInfo.cs
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\trpo_7.csproj.CoreCompileInputs.cache
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\trpo_7.sourcelink.json
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\trpo_7.csproj.Up2Date
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\trpo_7.dll
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\refint\trpo_7.dll
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\trpo_7.pdb
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\trpo_7.genruntimeconfig.cache
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\ref\trpo_7.dll

@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\obj\Debug\net8.0-windows\
+C:\Users\777\Desktop\трпо\trpo_7_km\obj\Debug\net8.0-windows\
 trpo_7
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\DNS\OneDrive\Рабочий стол\trpo\trpo_7\App.xaml
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\Users\777\Desktop\трпо\trpo_7_km\App.xaml
 5-321376250
-22-1369647256
-10472928128
-201785027404
+22-1583093017
+112033392024
+2011542987982
 MainWindow.xaml;Pages\ChangeMedicine.xaml;Pages\CreateMedicine.xaml;Pages\MainPage.xaml;Pages\PatchMedicine.xaml;
 
 False

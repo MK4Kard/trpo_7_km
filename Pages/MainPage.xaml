@@ -20,10 +20,8 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="0">
-            <ComboBox m:HintAssist.Hint="Производители">
-                <ComboBoxItem Content="Name"/>
-            </ComboBox>
-            <CheckBox Content="Наличие"/>
+            <TextBox m:HintAssist.Hint="Производитель" Text="{Binding manufacturer}"/>
+            <CheckBox Content="Наличие" IsChecked="{Binding available}"/>
             <Button Content="Список" Click="Button_Click"/>
         </StackPanel>
         <DataGrid Grid.Column="1" ItemsSource="{Binding medicines}" AutoGenerateColumns="False" CanUserAddRows="False"
