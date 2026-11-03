@@ -76,10 +76,18 @@ namespace trpo_7.Pages
         {
             if (SelectedMedicine != null)
             {
-                var medicine = await http.GetJson(SelectedMedicine.Id);
-                await http.DeleteJson(medicine.Id);
-                medicines.Remove(SelectedMedicine);
-                SelectedMedicine = null;
+                (Medicine? _medicine, string mess) task = await http.GetJson(SelectedMedicine.Id);
+
+                if (task._medicine != null)
+                {
+                    var mess = await http.DeleteJson(task._medicine.Id);
+                    MessageBox.Show(mess);
+
+                    medicines.Remove(SelectedMedicine);
+                    SelectedMedicine = null;
+                }
+
+                MessageBox.Show(task.mess);
             }
             else
             {
@@ -99,7 +107,7 @@ namespace trpo_7.Pages
             }
         }
 
-        private async Task Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
             Update();
         }
@@ -110,11 +118,17 @@ namespace trpo_7.Pages
             {
                 medicines.Clear();
 
-                var task = await http.GetFromJsonMedicineAsync(manufacturer, available);
-                foreach (var medic in task)
+                (List<Medicine>? medics, string mess) task = await http.GetFromJsonMedicineAsync(manufacturer, available);
+
+                if (task.medics != null)
                 {
-                    medicines.Add(medic);
+                    foreach (var medic in task.medics)
+                    {
+                        medicines.Add(medic);
+                    }
                 }
+
+                MessageBox.Show(task.mess);
             }
         }
 

@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|c:\\users\\777\\desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\http.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|solutionrelative:http.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|c:\\users\\777\\desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|c:\\users\\777\\desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|c:\\users\\777\\desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\pages\\patchmedicine.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|solutionrelative:pages\\patchmedicine.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|c:\\users\\777\\desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\pages\\patchmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|solutionrelative:pages\\patchmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|c:\\users\\777\\desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\medicinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|solutionrelative:medicinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|c:\\users\\777\\desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\pages\\changemedicine.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|solutionrelative:pages\\changemedicine.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|c:\\users\\777\\desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|solutionrelative:medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|c:\\users\\777\\desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\pages\\createmedicine.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|solutionrelative:pages\\createmedicine.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|c:\\users\\777\\desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\pages\\patchmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|solutionrelative:pages\\patchmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|c:\\users\\777\\desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\http.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909BA6B5-C6F8-4A5A-B8C9-C7999D288306}|trpo_7.csproj|solutionrelative:http.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,113 +43,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PatchMedicine.xaml",
-              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Pages\\PatchMedicine.xaml",
-              "RelativeDocumentMoniker": "Pages\\PatchMedicine.xaml",
-              "ToolTip": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Pages\\PatchMedicine.xaml",
-              "RelativeToolTip": "Pages\\PatchMedicine.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-11-02T16:40:44.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "PatchMedicine.cs",
               "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Pages\\PatchMedicine.cs",
               "RelativeDocumentMoniker": "Pages\\PatchMedicine.cs",
               "ToolTip": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Pages\\PatchMedicine.cs",
               "RelativeToolTip": "Pages\\PatchMedicine.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwEYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-02T16:36:08.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MedicineDto.cs",
-              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\MedicineDto.cs",
-              "RelativeDocumentMoniker": "MedicineDto.cs",
-              "ToolTip": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\MedicineDto.cs",
-              "RelativeToolTip": "MedicineDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T16:35:45.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Medicine.cs",
-              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Medicine.cs",
-              "RelativeDocumentMoniker": "Medicine.cs",
-              "ToolTip": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Medicine.cs",
-              "RelativeToolTip": "Medicine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T16:25:38.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "CreateMedicine.xaml.cs",
               "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Pages\\CreateMedicine.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\CreateMedicine.xaml.cs",
               "ToolTip": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Pages\\CreateMedicine.xaml.cs",
               "RelativeToolTip": "Pages\\CreateMedicine.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T15:32:25.316Z"
+              "WhenOpened": "2026-11-01T15:32:25.316Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "ChangeMedicine.xaml.cs",
               "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Pages\\ChangeMedicine.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\ChangeMedicine.xaml.cs",
               "ToolTip": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Pages\\ChangeMedicine.xaml.cs",
               "RelativeToolTip": "Pages\\ChangeMedicine.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAA1wD4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-01T15:32:22.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Pages\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Pages\\MainPage.xaml.cs",
               "RelativeToolTip": "Pages\\MainPage.xaml.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwFYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAGEAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-21T13:59:52.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Pages\\MainPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Pages\\MainPage.xaml",
-              "RelativeToolTip": "Pages\\MainPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-21T13:59:52.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Http.cs",
               "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Http.cs",
               "RelativeDocumentMoniker": "Http.cs",
               "ToolTip": "C:\\Users\\777\\Desktop\\\u0442\u0440\u043F\u043E\\trpo_7_km\\Http.cs",
               "RelativeToolTip": "Http.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA6wB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALoAAAAAAAAAAAAkwN0AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-21T13:59:52.383Z",
               "EditorCaption": ""

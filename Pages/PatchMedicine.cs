@@ -48,20 +48,27 @@ namespace trpo_7.Pages
 
         public async void Get()
         {
-            var medicineN = await http.GetJson(id);
-            medicine = new MedicineDto
+            (Medicine? _medicine, string mess) task = await http.GetJson(id);
+
+            if (task._medicine != null)
             {
-                Name = medicineN.Name,
-                Manufacturer = medicineN.Manufacturer,
-                Price = medicineN.Price,
-                ExpirationDate = medicineN.ExpirationDate,
-                IsAvailable = medicineN.IsAvailable
-            };
+                medicine = new MedicineDto
+                {
+                    Name = task._medicine.Name,
+                    Manufacturer = task._medicine.Manufacturer,
+                    Price = task._medicine.Price,
+                    ExpirationDate = task._medicine.ExpirationDate,
+                    IsAvailable = task._medicine.IsAvailable
+                };
+            }
+
+            MessageBox.Show(task.mess);
         }
 
         private async void Change_Click(object sender, RoutedEventArgs e)
         {
-            await http.PatchJson(medicine, id);
+            var mess = await http.PatchJson(medicine, id);
+            MessageBox.Show(mess);
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)

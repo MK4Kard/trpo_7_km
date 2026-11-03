@@ -47,12 +47,20 @@ namespace trpo_7.Pages
 
         public async void Get()
         {
-            medicine = await http.GetJson(id);
+            (Medicine? _medicine, string mess) task = await http.GetJson(id);
+
+            if (task._medicine != null)
+            {
+                medicine = task._medicine;
+            }
+
+            MessageBox.Show(task.mess);
         }
 
         private async void Change_Click(object sender, RoutedEventArgs e)
         {
-            await http.PutJson(medicine, id);
+            var mess = await http.PutJson(medicine, id);
+            MessageBox.Show(mess);
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)

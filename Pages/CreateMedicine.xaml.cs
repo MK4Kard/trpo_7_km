@@ -29,7 +29,9 @@ namespace trpo_7.Pages
 
         private async void Create_Click(object sender, RoutedEventArgs e)
         {
-            await http.CreateJson(medicine);
+            var mess = await http.CreateJson(medicine);
+
+            MessageBox.Show(mess);
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
